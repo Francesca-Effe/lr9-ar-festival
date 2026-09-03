@@ -12,16 +12,10 @@
         color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: true">
 
-        <a-assets>
-            <a-asset-item id="loulou" src="assets/LOULOU_LR9_DRIBBLE.glb"></a-asset-item>
-        </a-assets>
-
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity mindar-image-target="targetIndex: 0">
-            <a-gltf-model src="#loulou" position="0 0 0" scale="0.0001 0.0001 0.0001" rotation="0 0 0"
-                >
-            </a-gltf-model>
+            <a-box position="0 0 0.1" scale="0.2 0.2 0.2" color="red"></a-box>
         </a-entity>
 
     </a-scene>
